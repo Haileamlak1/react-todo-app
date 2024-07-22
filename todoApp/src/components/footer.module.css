@@ -5,8 +5,9 @@
     width: 100%;
     font-size: 1.5em;
     font-weight: bold;
-    background-color: #4118f7;
+    background-color: #3b2ead;
     padding: 10px;
+    color: #d4cece;
 }
 .items{
       margin: 50px;

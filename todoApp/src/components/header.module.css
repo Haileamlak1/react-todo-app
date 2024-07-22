@@ -1,11 +1,38 @@
 .header{
-    background-color: #007BFF;
+    background-color: rgb(48, 48, 201);
     text-align: center;
     padding: 5px;
     height: 50px;
     font-size: 2em;
-    font-weight: bold;
+    /* font-weight: bold; */
     box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
-    color: #fff;
+    color: #d7cccc;
+}
+.textDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    background-color: #FFF9E6 ;
+    margin-top: -20px;
+}
+.textDiv h5{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(32, 197, 197);
+    margin-top: 0;
+}
+.olItems{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  list-style: none;
+}
+.olItems li{
+    margin-bottom: 10px;
+}
+.olItems li:last-child{
+    margin-bottom: 20px;
 }
 

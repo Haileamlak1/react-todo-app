@@ -16,7 +16,7 @@ const TodoItem = ({item, todos, setTodos}) => {
         <div className={styles.itemName}>
           <span className={className} onClick={()=>handleClick(item.name)}>{item.name}</span>
           <span>
-            <button onClick={()=>deleteItem(item)} className={styles.deleteBtn}>X</button>
+            <button onClick={()=>deleteItem(item)} className={styles.deleteBtn}>delete</button>
           </span>
         </div>
         <hr className={styles.line}/>

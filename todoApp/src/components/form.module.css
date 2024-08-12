@@ -1,5 +1,5 @@
 .todoform{
-    background-color: white;
+    background: linear-gradient(to right, rgb(222, 222, 222), rgb(181, 177, 177));
     padding: 20px;
     width: 500px;
     margin: 0 auto;
@@ -13,19 +13,25 @@
     border: none;
     color: black;
     font-size: 16px;
+    background: inherit;
 }
 .formInput:focus{
     outline: none;
 }
 .inputButton{
     display: inline-block;
-    color: #f1ebeb;
+    color:  #cecece;
     padding: 8px 20px;
+    /* border: 2px solid #467797; */
     border: none;
     border-radius: 4px;
-    background: #3714b5;
+    background: #667d6d;
     font-size: 20px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.inputButton:hover, .inputButton:focus{
+    background-color: #217d3d;
 }
 .inputContainer{
     display: flex;

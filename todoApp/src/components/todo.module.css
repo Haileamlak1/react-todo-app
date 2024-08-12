@@ -1,7 +1,7 @@
 .clearDiv{
     border-radius: 8px;
     box-shadow: 0  4px 6px rgb(0, 0, 0, .2);
-    background-color: white;
+    background-color: rgb(192, 192, 192);
     width: 200px;
     margin: 0 auto;
     margin-top: 50px;
@@ -12,14 +12,18 @@
 .clearBtn{
     width: 100%;
     padding: 10px 0;
-    background-color: #c13531;
-    color: #000;
+    background-color: #7f3735;
+    color: #b9b9b9;
     border-radius: 5px;
     cursor: pointer;
     border: none;
     font-size: 20px;
+    font-weight: bolder;
     font-weight: bold;
+    transition: background-color 0.3s ease, border-color .3s ease, color .5s ease;
 }
 .clearBtn:hover{
-    background-color: #ff050e;
+    background-color: #3b060a;
+    border-color: #000;
+    color: rgb(94, 94, 94);
 }

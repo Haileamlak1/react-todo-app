@@ -9,18 +9,25 @@
     padding: 20px;
 }
 .line{
-    border: 1px solid #f4f4f4;
+    border: 1px solid #e7e6e6;
 }
 .deleteBtn{
     float: right;
     padding: 8px 20px;
     border: none;
-    background-color: rgb(172, 22, 52);
-    color: #000;
+    background-color: #7f3735;
+    color: #b9b9b9;
     margin-top: -5px;
+    font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
     font-size: 17px;
+    transition: background-color 0.3s ease, border-color .3s ease, color .5s ease;
+}
+.deleteBtn:hover{
+    background-color: #3b060a;
+    border-color: #000;
+    color: rgb(94, 94, 94);
 }
 .completed{
     text-decoration: line-through;
